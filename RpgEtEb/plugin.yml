@@ -1,0 +1,58 @@
+name: RpgEtEb
+main: RpgEtEb\RpgEtEb
+version: B1
+author: Sanea
+api:
+- 3.0.0
+- 4.0.0
+- 4.0.1
+- 4.0.2
+- 4.0.3
+- 4.0.4
+- 4.0.5
+- 4.1.0
+- 5.0.0
+
+commands:
+ 레벨:
+  description: levelcommands
+  permission: level.user.command
+ 레벨업권:
+  description: levelupcommands
+  permission: levelup.user.command
+ 체력사과:
+  description: hpcommands
+  permission: hp.user.command
+ 스킬템:
+  description: skillcommands
+  permission: skill.user.command
+ 전직권:
+  description: jobsetcommands
+  permission: jobset.user.command
+ 흑정령:
+  description: whcommands
+  permission: wh.user.command
+ 빛정령:
+  description: bhcommands
+  permission: bh.user.command
+ 정보:
+  description: mycommands
+  permission: my.user.command
+
+permissions:
+ level.user.command:
+  default: true
+ levelup.user.command:
+  default: true
+ hp.user.command:
+  default: true
+ skill.user.command:
+  default: true
+ jobset.user.command:
+  default: true
+ wh.user.command:
+  default: true
+ bh.user.command:
+  default: true
+ my.user.command:
+  default: true
